@@ -1,6 +1,6 @@
 ## Seleccionam la imatge base
-# Especificam com a imatge base una imatge Debian lleuger amb Java 17
-FROM openjdk:17-slim
+# Especificam com a imatge base una imatge Debian lleuger amb OpenJDK 17
+FROM eclipse-temurin:17-jre-jammy
 
 
 ## Descarregam e instal·lam les dependències
